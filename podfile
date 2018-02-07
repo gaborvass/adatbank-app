@@ -3,6 +3,8 @@ use_frameworks!
 
 project 'CsapaTom/CsapaTom.xcodeproj'
 
+platform :ios, '9.0'
+
 target 'CsapaTom' do
     pod 'RxSwift',    '~> 4.0'
     pod 'RxCocoa',    '~> 4.0'

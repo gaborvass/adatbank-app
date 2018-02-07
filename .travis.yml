@@ -5,9 +5,8 @@ language: objective-c
 sudo: required
 dist: trusty
 
-
-
-xcode_workspace: CsapaTom.xcworkspace
+script:
+  - xctool -workspace CsapaTom.xcworkspace -scheme CsapaTom -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
 
 

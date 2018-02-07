@@ -6,7 +6,7 @@ sudo: required
 dist: trusty
 
 script:
-  - xctool -workspace CsapaTom.xcworkspace -scheme CsapaTom -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xcodebuild -workspace CsapaTom.xcworkspace -scheme CsapaTom -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
 
 
 

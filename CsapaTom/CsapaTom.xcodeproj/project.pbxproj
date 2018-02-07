@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586E274234173AA27860D6F0 /* Pods_CsapaTom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66F0346C3D1DAFD9A1972E85 /* Pods_CsapaTom.framework */; };
+		BCA1F973202B1CC700F4DBD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1F972202B1CC700F4DBD8 /* AppDelegate.swift */; };
+		BCA1F975202B1CC700F4DBD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA1F974202B1CC700F4DBD8 /* ViewController.swift */; };
+		BCA1F978202B1CC700F4DBD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA1F976202B1CC700F4DBD8 /* Main.storyboard */; };
+		BCA1F97A202B1CC700F4DBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA1F979202B1CC700F4DBD8 /* Assets.xcassets */; };
+		BCA1F97D202B1CC700F4DBD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA1F97B202B1CC700F4DBD8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F934C43A042B4C4F93523C0 /* Pods-CsapaTom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CsapaTom.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-CsapaTom/Pods-CsapaTom.debug.xcconfig"; sourceTree = "<group>"; };
+		66F0346C3D1DAFD9A1972E85 /* Pods_CsapaTom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CsapaTom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA1F96F202B1CC700F4DBD8 /* CsapaTom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CsapaTom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA1F972202B1CC700F4DBD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCA1F974202B1CC700F4DBD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA1F977202B1CC700F4DBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCA1F979202B1CC700F4DBD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA1F97C202B1CC700F4DBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCA1F97E202B1CC700F4DBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDE790533401716EBC423018 /* Pods-CsapaTom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CsapaTom.release.xcconfig"; path = "../Pods/Target Support Files/Pods-CsapaTom/Pods-CsapaTom.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA1F96C202B1CC700F4DBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586E274234173AA27860D6F0 /* Pods_CsapaTom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3990AE74CC0249725AEE0CE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F934C43A042B4C4F93523C0 /* Pods-CsapaTom.debug.xcconfig */,
+				CDE790533401716EBC423018 /* Pods-CsapaTom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7205E1DD752990CDEB51BDC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66F0346C3D1DAFD9A1972E85 /* Pods_CsapaTom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCA1F966202B1CC700F4DBD8 = {
+			isa = PBXGroup;
+			children = (
+				BCA1F971202B1CC700F4DBD8 /* CsapaTom */,
+				BCA1F970202B1CC700F4DBD8 /* Products */,
+				3990AE74CC0249725AEE0CE6 /* Pods */,
+				7205E1DD752990CDEB51BDC1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA1F970202B1CC700F4DBD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1F96F202B1CC700F4DBD8 /* CsapaTom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA1F971202B1CC700F4DBD8 /* CsapaTom */ = {
+			isa = PBXGroup;
+			children = (
+				BCA1F972202B1CC700F4DBD8 /* AppDelegate.swift */,
+				BCA1F974202B1CC700F4DBD8 /* ViewController.swift */,
+				BCA1F976202B1CC700F4DBD8 /* Main.storyboard */,
+				BCA1F979202B1CC700F4DBD8 /* Assets.xcassets */,
+				BCA1F97B202B1CC700F4DBD8 /* LaunchScreen.storyboard */,
+				BCA1F97E202B1CC700F4DBD8 /* Info.plist */,
+			);
+			path = CsapaTom;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA1F96E202B1CC700F4DBD8 /* CsapaTom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA1F981202B1CC700F4DBD8 /* Build configuration list for PBXNativeTarget "CsapaTom" */;
+			buildPhases = (
+				AFE04247E1AA979C9EDD0F0D /* [CP] Check Pods Manifest.lock */,
+				BCA1F96B202B1CC700F4DBD8 /* Sources */,
+				BCA1F96C202B1CC700F4DBD8 /* Frameworks */,
+				BCA1F96D202B1CC700F4DBD8 /* Resources */,
+				C888139E2931B2DA4CAE4996 /* [CP] Embed Pods Frameworks */,
+				44484F0292880652F65AD323 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CsapaTom;
+			productName = CsapaTom;
+			productReference = BCA1F96F202B1CC700F4DBD8 /* CsapaTom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA1F967202B1CC700F4DBD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Gabor Vass";
+				TargetAttributes = {
+					BCA1F96E202B1CC700F4DBD8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BCA1F96A202B1CC700F4DBD8 /* Build configuration list for PBXProject "CsapaTom" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA1F966202B1CC700F4DBD8;
+			productRefGroup = BCA1F970202B1CC700F4DBD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA1F96E202B1CC700F4DBD8 /* CsapaTom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA1F96D202B1CC700F4DBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA1F97D202B1CC700F4DBD8 /* LaunchScreen.storyboard in Resources */,
+				BCA1F97A202B1CC700F4DBD8 /* Assets.xcassets in Resources */,
+				BCA1F978202B1CC700F4DBD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44484F0292880652F65AD323 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CsapaTom/Pods-CsapaTom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFE04247E1AA979C9EDD0F0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C888139E2931B2DA4CAE4996 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-CsapaTom/Pods-CsapaTom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA1F96B202B1CC700F4DBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA1F975202B1CC700F4DBD8 /* ViewController.swift in Sources */,
+				BCA1F973202B1CC700F4DBD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCA1F976202B1CC700F4DBD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA1F977202B1CC700F4DBD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCA1F97B202B1CC700F4DBD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCA1F97C202B1CC700F4DBD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCA1F97F202B1CC700F4DBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA1F980202B1CC700F4DBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA1F982202B1CC700F4DBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F934C43A042B4C4F93523C0 /* Pods-CsapaTom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48P2Z2RFEU;
+				INFOPLIST_FILE = CsapaTom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaborvass.CsapaTom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA1F983202B1CC700F4DBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE790533401716EBC423018 /* Pods-CsapaTom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48P2Z2RFEU;
+				INFOPLIST_FILE = CsapaTom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gaborvass.CsapaTom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA1F96A202B1CC700F4DBD8 /* Build configuration list for PBXProject "CsapaTom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA1F97F202B1CC700F4DBD8 /* Debug */,
+				BCA1F980202B1CC700F4DBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA1F981202B1CC700F4DBD8 /* Build configuration list for PBXNativeTarget "CsapaTom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA1F982202B1CC700F4DBD8 /* Debug */,
+				BCA1F983202B1CC700F4DBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA1F967202B1CC700F4DBD8 /* Project object */;
+}

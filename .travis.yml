@@ -5,7 +5,9 @@ language: generic
 sudo: required
 dist: trusty
 
+pod install
 
+xcode_workspace: CsapaTom.xcworkspace
 
 
 
